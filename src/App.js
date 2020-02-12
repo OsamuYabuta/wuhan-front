@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Topics from './components/Topics'
+import Topics from './components/Topics';
+import PickedUpUsers from './components/PickedUpUsers';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   Container,
@@ -17,7 +18,7 @@ function App() {
         <Col><Topics/></Col>
       </Row>
       <Row>
-        <Col></Col>
+        <Col><PickedUpUsers /></Col>
       </Row>  
     </Container>
   );
