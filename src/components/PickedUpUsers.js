@@ -13,6 +13,9 @@ import axios from 'axios'
 export default class PickedUpUsers extends React.Component {
     langs = ["ja","ko","cn" , "en"]
 
+    api_host = null
+    api_port = null
+
     constructor(props) {
         super(props)
 
@@ -22,12 +25,15 @@ export default class PickedUpUsers extends React.Component {
             "cn":[],
             "en":[]
         }
+
+        this.api_host = process.env.REACT_APP_API_HOST
+        this.api_port = process.env.REACT_APP_API_PORT
     }
 
     componentDidMount() {
         var self = this;
         this.langs.forEach(lang => {
-            axios.get("http://localhost:8000/pickedupusers/" + lang).then(function(res) {
+            axios.get("http://" + self.api_host + ":" + self.api_port + "/pickedupusers/" + lang).then(function(res) {
                  self.setState({
                     [lang]:res.data.pickedupusers
                 })

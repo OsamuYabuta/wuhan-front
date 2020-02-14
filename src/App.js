@@ -9,14 +9,17 @@ import {
   Row,
   Col
  } from 'react-bootstrap';
+ import dotenv from 'dotenv'
+
+ dotenv.config()
 
 
 function App() {
   return (
     <Container>
       <Row>
-        <Col><Topics/></Col>
-        <Col><PickedUpUsers /></Col>
+        <Col><Topics process={process}/></Col>
+        <Col><PickedUpUsers process={process}/></Col>
       </Row>  
     </Container>
   );
