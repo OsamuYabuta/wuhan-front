@@ -16,8 +16,6 @@ function App() {
     <Container>
       <Row>
         <Col><Topics/></Col>
-      </Row>
-      <Row>
         <Col><PickedUpUsers /></Col>
       </Row>  
     </Container>
