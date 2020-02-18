@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/wuhan/precache-manifest.851b7135e370b7bb963b0d8c4beeac87.js"
+  "/wuhan/precache-manifest.de878a9bd1257918fdc9a38bb3f0c41c.js"
 );
 
 self.addEventListener('message', (event) => {

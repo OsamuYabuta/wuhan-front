@@ -70,7 +70,7 @@ export default class PickedUpUsers extends React.Component {
                                   return (
                               <tr key={ pickedupuser.id }>
                                   <td>{ pickedupuser.id }</td>
-                                  <td><a href="https://twitter.com/{ pickedupuser.screen_name }">{ pickedupuser.screen_name }</a></td>
+                                  <td><a href={"https://twitter.com/"+pickedupuser.screen_name}>{ pickedupuser.screen_name }</a></td>
                                   <td>{ pickedupuser.score }</td>
                               </tr>);
                               })}
@@ -96,7 +96,7 @@ export default class PickedUpUsers extends React.Component {
                                   return (
                               <tr key={ pickedupuser.id }>
                                   <td>{ pickedupuser.id }</td>
-                                  <td><a href="https://twitter.com/{ pickedupuser.screen_name }">{ pickedupuser.screen_name }</a></td>
+                                  <td><a href={"https://twitter.com/" + pickedupuser.screen_name }>{ pickedupuser.screen_name }</a></td>
                                   <td>{ pickedupuser.score }</td>
                               </tr>);
                               })}
@@ -122,7 +122,7 @@ export default class PickedUpUsers extends React.Component {
                                   return (
                               <tr key={ pickedupuser.id }>
                                   <td>{ pickedupuser.id }</td>
-                                  <td><a href="https://twitter.com/{ pickedupuser.screen_name }">{ pickedupuser.screen_name }</a></td>
+                                  <td><a href={"https://twitter.com/" + pickedupuser.screen_name }>{ pickedupuser.screen_name }</a></td>
                                   <td>{ pickedupuser.score }</td>
                               </tr>);
                               })}
@@ -148,7 +148,7 @@ export default class PickedUpUsers extends React.Component {
                                   return (
                               <tr key={ pickedupuser.id }>
                                   <td>{ pickedupuser.id }</td>
-                                  <td><a href="https://twitter.com/{ pickedupuser.screen_name }">{ pickedupuser.screen_name }</a></td>
+                                  <td><a href={"https://twitter.com/" + pickedupuser.screen_name }>{ pickedupuser.screen_name }</a></td>
                                   <td>{ pickedupuser.score }</td>
                               </tr>);
                               })}

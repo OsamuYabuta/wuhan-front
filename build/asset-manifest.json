@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/wuhan/static/css/main.d878f225.chunk.css",
-    "main.js": "/wuhan/static/js/main.39574ac5.chunk.js",
-    "main.js.map": "/wuhan/static/js/main.39574ac5.chunk.js.map",
+    "main.js": "/wuhan/static/js/main.149bf112.chunk.js",
+    "main.js.map": "/wuhan/static/js/main.149bf112.chunk.js.map",
     "runtime-main.js": "/wuhan/static/js/runtime-main.9f14163c.js",
     "runtime-main.js.map": "/wuhan/static/js/runtime-main.9f14163c.js.map",
     "static/css/2.47e06e2e.chunk.css": "/wuhan/static/css/2.47e06e2e.chunk.css",
     "static/js/2.9c2ec7cc.chunk.js": "/wuhan/static/js/2.9c2ec7cc.chunk.js",
     "static/js/2.9c2ec7cc.chunk.js.map": "/wuhan/static/js/2.9c2ec7cc.chunk.js.map",
     "index.html": "/wuhan/index.html",
-    "precache-manifest.851b7135e370b7bb963b0d8c4beeac87.js": "/wuhan/precache-manifest.851b7135e370b7bb963b0d8c4beeac87.js",
+    "precache-manifest.de878a9bd1257918fdc9a38bb3f0c41c.js": "/wuhan/precache-manifest.de878a9bd1257918fdc9a38bb3f0c41c.js",
     "service-worker.js": "/wuhan/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/wuhan/static/css/2.47e06e2e.chunk.css.map",
     "static/css/main.d878f225.chunk.css.map": "/wuhan/static/css/main.d878f225.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.9c2ec7cc.chunk.js",
     "static/css/main.d878f225.chunk.css",
-    "static/js/main.39574ac5.chunk.js"
+    "static/js/main.149bf112.chunk.js"
   ]
 }
