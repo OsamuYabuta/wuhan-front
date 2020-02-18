@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "58c65f57a6b45f5858b091923516818d",
+    "revision": "7ea3d2f2037491c0d18c2f1879ea0f3c",
     "url": "/wuhan/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wuhan/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "869c1bf52dcf5268e63d",
+    "revision": "78f3629189b2e162e0c6",
     "url": "/wuhan/static/css/main.d878f225.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wuhan/static/js/2.9c2ec7cc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "869c1bf52dcf5268e63d",
-    "url": "/wuhan/static/js/main.cf772a24.chunk.js"
+    "revision": "78f3629189b2e162e0c6",
+    "url": "/wuhan/static/js/main.39574ac5.chunk.js"
   },
   {
     "revision": "c1d2a88938093ddb55ed",
